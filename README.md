@@ -179,7 +179,7 @@ The project demonstrates the use of:
 
 These techniques made the analytical queries more efficient, readable, and easier to maintain.
 
-![Advanced SQL](Screenshots/06_advanced_sql/01_advanced_analysis_1.png)
+![Advanced SQL](Screenshots/06_advanced_sql/01_advanced_sqls_1.png)
 
 *Using Common Table Expressions and Window Functions to perform advanced analytical calculations.*
 
