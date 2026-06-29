@@ -89,86 +89,144 @@ README.md
 
 # 🔍 Data Quality Check
 
-Before transforming the dataset, I verified its quality by checking for:
+Before transforming the dataset, I assessed its quality to ensure the data was accurate, consistent, and suitable for analysis.
 
-* Missing values
-* Empty text values
-* Duplicate records
-* Invalid date relationships
-* Numeric ranges
-* Categorical consistency
+The quality assessment included:
 
-These checks helped identify potential issues before the cleaning process.
+- Checking for missing values in key columns
+- Identifying empty text values
+- Detecting duplicate records
+- Verifying logical consistency between order and shipping dates
+- Validating numeric ranges
+- Reviewing categorical values for consistency
+
+These checks helped identify potential data quality issues before the cleaning and transformation process.
+
+![Data Quality Check](screenshots/02_data_quality/01_data_quality_check_1.png)
+
+*Checking missing values and validating the dataset before data cleaning.*
 
 ---
 
 # 🧹 Data Cleaning
 
-The dataset was prepared for analysis by:
+After validating the dataset, I prepared the data for further analysis by cleaning and standardizing its contents.
 
-* Replacing empty text values
-* Removing unnecessary spaces using `TRIM()`
-* Creating the `shipping_delay` column
-* Creating the `profit_margin` column
-* Building the final analytical dataset
+The cleaning process included:
 
-The cleaned dataset became the foundation for the relational database model.
+- Replacing empty text values
+- Removing leading and trailing spaces using `TRIM()`
+- Creating calculated columns such as `shipping_delay` and `profit_margin`
+- Preparing the final analytical table used throughout the project
+
+These transformations improved data consistency and created a reliable foundation for the analytical phase.
+
+![Data Cleaning](screenshots/03_data_cleaning/02_data_cleaning_1.png)
+
+*Cleaning and transforming the dataset before building the analytical model.*
 
 ---
 
 # 🏗 Data Modeling
 
-The analytical table was transformed into a normalized relational database consisting of:
+The cleaned dataset was transformed into a normalized relational database model to improve data organization and support efficient analysis.
 
-* Customers
-* Orders
-* Order Items
-* Products
-* Categories
+The model consists of separate tables for:
 
-Primary and foreign keys were added to ensure referential integrity between tables and improve query performance.
+- Customers
+- Orders
+- Order Items
+- Products
+- Categories
+
+Primary and foreign keys were added to establish relationships between tables and ensure referential integrity.
+
+![Data Modeling](screenshots/04_data_modeling/01_create_tables_1.png)
+
+*Creating a normalized relational database model from the cleaned dataset.*
+
+---
+
+# 📈 Time Analysis
+
+Time-based analyses were performed to better understand how sales changed over different periods.
+
+The analysis included:
+
+- Monthly sales trends
+- Seasonal sales performance
+- Month-over-month sales growth
+
+These analyses helped identify long-term trends and recurring seasonal patterns in sales performance.
+
+![Time Analysis](screenshots/05_time_analysis/01_time_analysis_1.png)
+
+*Analyzing sales trends and seasonal patterns over time.*
+
+---
+
+# 🚀 Advanced SQL
+
+To extend the analytical capabilities of the project, I used more advanced SQL techniques that are commonly applied in real-world data analysis.
+
+The project demonstrates the use of:
+
+- Common Table Expressions (CTEs)
+- Window Functions
+- `LAG()`
+- Ranking functions
+- Aggregate calculations
+
+These techniques made the analytical queries more efficient, readable, and easier to maintain.
+
+![Advanced SQL](screenshots/06_advanced_sql/01_advanced_analysis_1.png)
+
+*Using Common Table Expressions and Window Functions to perform advanced analytical calculations.*
 
 ---
 
 # 📊 Business Analysis
 
-The project includes several business-oriented analyses grouped into the following categories.
+The final stage of the project focused on answering business questions using the prepared relational dataset.
+
+The analyses covered several business areas, including:
+
+- Sales performance
+- Customer behavior
+- Product profitability
+- Delivery performance
+
+The goal was to identify trends, compare performance across different dimensions, and generate meaningful business insights.
 
 ## Sales Analysis
 
-* Sales by Region
-* Sales by Category
-* Monthly Sales Trend
-* Seasonal Sales Analysis
-* Month-over-Month Sales Growth
+![Sales Analysis](screenshots/07_business_analysis/01_sales_analysis_1.png)
+
+*Analyzing sales performance across regions and time periods.*
+
+---
 
 ## Customer Analysis
 
-* Customer Segment Performance
-* Customer Profitability
+![Customer Analysis](screenshots/07_business_analysis/03_customer_analysis_1.png)
+
+*Comparing customer segments based on sales and profitability.*
+
+---
 
 ## Product Analysis
 
-* Product Performance
-* Discount Impact Analysis
-* Category Sales Share
-* Pareto Analysis
+![Product Analysis](screenshots/07_business_analysis/05_product_analysis_1.png)
+
+*Evaluating product performance and identifying the most profitable categories.*
+
+---
 
 ## Delivery Analysis
 
-* Delivery Performance
-* Delayed Orders by Shipping Mode
-* Average Shipping Delay by Shipping Mode
+![Delivery Analysis](screenshots/07_business_analysis/08_delivery_analysis_1.png)
 
-## Advanced SQL
-
-Examples of more advanced SQL techniques used in the project include:
-
-* Common Table Expressions (CTEs)
-* Window Functions
-* `LAG()`
-* `RANK()`
-* Aggregate Functions
+*Analyzing delivery performance and shipping delays across different shipping methods.*
 
 ---
 
