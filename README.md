@@ -102,7 +102,7 @@ The quality assessment included:
 
 These checks helped identify potential data quality issues before the cleaning and transformation process.
 
-![Data Quality Check](screenshots/02_data_quality/01_data_quality_check_1.png)
+![Data Quality Check](Screenshots/02_data_quality/01_data_quality_check_1.png)
 
 *Checking missing values and validating the dataset before data cleaning.*
 
