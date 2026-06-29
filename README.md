@@ -121,7 +121,7 @@ The cleaning process included:
 
 These transformations improved data consistency and created a reliable foundation for the analytical phase.
 
-![Data Cleaning](screenshots/03_data_cleaning/02_data_cleaning_1.png)
+![Data Cleaning](Screenshots/03_data_cleaning/02_data_cleaning_1.png)
 
 *Cleaning and transforming the dataset before building the analytical model.*
 
@@ -141,7 +141,7 @@ The model consists of separate tables for:
 
 Primary and foreign keys were added to establish relationships between tables and ensure referential integrity.
 
-![Data Modeling](screenshots/04_data_modeling/01_create_tables_1.png)
+![Data Modeling](Screenshots/04_data_modeling/01_create_tables_1.png)
 
 *Creating a normalized relational database model from the cleaned dataset.*
 
@@ -159,7 +159,7 @@ The analysis included:
 
 These analyses helped identify long-term trends and recurring seasonal patterns in sales performance.
 
-![Time Analysis](screenshots/05_time_analysis/01_time_analysis_1.png)
+![Time Analysis](Screenshots/05_time_analysis/01_time_analysis_1.png)
 
 *Analyzing sales trends and seasonal patterns over time.*
 
@@ -179,7 +179,7 @@ The project demonstrates the use of:
 
 These techniques made the analytical queries more efficient, readable, and easier to maintain.
 
-![Advanced SQL](screenshots/06_advanced_sql/01_advanced_analysis_1.png)
+![Advanced SQL](Screenshots/06_advanced_sql/01_advanced_analysis_1.png)
 
 *Using Common Table Expressions and Window Functions to perform advanced analytical calculations.*
 
@@ -200,7 +200,7 @@ The goal was to identify trends, compare performance across different dimensions
 
 ## Sales Analysis
 
-![Sales Analysis](screenshots/07_business_analysis/01_sales_analysis_1.png)
+![Sales Analysis](Screenshots/07_business_analysis/01_sales_analysis_1.png)
 
 *Analyzing sales performance across regions and time periods.*
 
@@ -208,7 +208,7 @@ The goal was to identify trends, compare performance across different dimensions
 
 ## Customer Analysis
 
-![Customer Analysis](screenshots/07_business_analysis/03_customer_analysis_1.png)
+![Customer Analysis](Screenshots/07_business_analysis/03_customer_analysis_1.png)
 
 *Comparing customer segments based on sales and profitability.*
 
@@ -216,7 +216,7 @@ The goal was to identify trends, compare performance across different dimensions
 
 ## Product Analysis
 
-![Product Analysis](screenshots/07_business_analysis/05_product_analysis_1.png)
+![Product Analysis](Screenshots/07_business_analysis/05_product_analysis_1.png)
 
 *Evaluating product performance and identifying the most profitable categories.*
 
@@ -224,7 +224,7 @@ The goal was to identify trends, compare performance across different dimensions
 
 ## Delivery Analysis
 
-![Delivery Analysis](screenshots/07_business_analysis/08_delivery_analysis_1.png)
+![Delivery Analysis](Screenshots/07_business_analysis/08_delivery_analysis_1.png)
 
 *Analyzing delivery performance and shipping delays across different shipping methods.*
 
